@@ -1,0 +1,30 @@
+Pegar um número x e dividir por dois até que o resultado seja 1
+
+Como converter número para binário?
+Pegamos o resto da divisão, se a divisão for exata é 0, se não for, é 1
+Convertendo 128:
+128 / 2 64, 0
+64 /2 32 0
+32 / 2 16 0
+16 / 2 8 0
+8 / 2 4 0
+4 / 2 2 0
+2 / 2 1 0
+1
+256
+128 0
+64 0
+32 0
+16 0
+8 0
+4 0
+2 0
+1 0
+1
+E colocar 1 no final
+Vamos à criação do código:
+O main vai ler a quantidade de conversões a ser feita
+Em seguida vai ler os números digitados.
+Após ler os números digitados, vai chamar a função recursiva que vai converter o trem pra binário, mas provavelmente precisarei de uma variável auxiliar para modificar enquanto mantenho o número original inalterado.
+E também precisarei de outra recursão para fazer o programa pedir a quantidade de números adequada.
+Esta talvez possa ser um procedimento
