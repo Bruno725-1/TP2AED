@@ -1,0 +1,50 @@
+O Grande Torneio dos Matemagos
+
+No distante e excêntrico Reino de Bitlândia, onde os números andam de chapéu e fazem festa na base dois, vivia um rei muito peculiar chamado Binário, o Trovejante. Esse rei tinha uma obsessão um tanto... estranha: ele não entendia nada de números decimais! Para ele, só existiam os números 0 e 1.
+
+ 
+Certo dia, um jovem aprendiz chamado Dígito, o Indeciso apareceu no castelo com uma missão: ele queria participar do lendário Torneio dos Matemagos, onde apenas aqueles que dominassem os mistérios da conversão numérica poderiam ganhar a tão cobiçada Coroa de Bits.
+
+ 
+O rei Binário olhou para Dígito e disse:  
+
+— Jovem, se deseja ser um verdadeiro Matemago, terá que provar seu valor. Aqui em Bitlândia, não usamos esses números esquisitos que vão além de 1! Apenas verdadeiros mestres sabem converter números decimais para a sublime arte dos 0s e 1s!  
+
+Dígito, que nunca foi muito fã de contas, coçou a cabeça e tentou usar a calculadora do celular, mas um trovão estrondoso ecoou pelo castelo!  
+
+— SEM TRAPAÇAS! — gritou o rei.  
+
+O jovem percebeu que a única forma de resolver o problema seria usando a técnica dos antigos mestres: a recursão sagrada. Ele pegou um pergaminho, uma pena e começou a escrever seu feitiço algorítmico...  
+
+E agora, nobre programador, cabe a você completar a missão de Dígito e impressionar o Rei Binário!  
+
+ 
+
+Desafio  
+Você deve criar uma função recursiva em C# que receba um número natural N (0 ≤ N ≤ 10000) e o imprima em sua forma binária.  
+• Não pode usar bibliotecas prontas de conversão (como Convert.ToString ou Convert.ToBinary).  
+• Não pode usar formatação de strings como String.Format ou interpolação mágica.  
+• Somente o poder da recursão poderá te salvar!  
+Agora, pegue sua varinha de programação e que o poder dos 0s e 1s esteja com você! 🚀
+O problema é que a linguagem final será o C#Marromeno (kkk). Essa linguagem, recém criada, é bem parecida com o C# só que, pra economizar no compilador, ela não tem nenhum comando de repetição (proibido usar while, for, foreach, do-while). A única forma de iterar em um conjunto repetitivo é por recursividade.
+Entrada
+A primeira linha da entrada contém um inteiro N indicando quantidade de números a serem convertidos (0 ≤ N ≤ 10000). A seguir nas N próximas linhas deverá ser lido um número natural I (0 ≤ I ≤ 100000000)
+Saída
+Deverá conter N linhas com os respectivos números binários correspondentes aos número I da entrada. Não colocar zeros à esquerda dos números binários.
+
+
+ATENÇÃO
+O Verde permite a linguagem C# normal, mas o compilador final (o fessor compilando com os ôio) não! Não pode usar nenhum comando repetição. Nem pra ler os dados muito menos pra escrever. Só método recursivo! Para cada comando de repetição detectado, a nota deste TP 2 inteiro será dividida por 2 
+Entrada:
+5
+65535
+1023
+9999999
+2048
+12345678
+Saída:
+1111111111111111
+1111111111
+100110001001011001111111
+100000000000
+101111000110000101001110

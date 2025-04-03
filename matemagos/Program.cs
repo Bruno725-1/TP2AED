@@ -4,26 +4,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Retirar o prompt antes de mandar para o Verde");
         int n = int.Parse(Console.ReadLine());
-        int num = 0;
-        int i = 0;
-        if (i < n) {
-            num = int.Parse(Console.ReadLine());
-            Console.WriteLine(ConverterNumero(num));
-            i++;
-        }
-        Console.WriteLine(num);
+        LerNumeros(n);
     }
-    static int ConverterNumero (int num) {
-        int binario = num;
-        if (binario == 1) {
-            return 1;
+    static void ConverterNumero (int num) {
+        if (num == 0) {
+            Console.Write(0);
+            return;
         }
-        else {
-            int resto = binario % 2;
-            Console.Write(resto);
-            return ConverterNumero(binario / 2);
+        if (num > 1) {
+            ConverterNumero(num / 2);
         }
+        Console.Write(num % 2);
+    }
+    static void LerNumeros(int n) {
+        if (n == 0)
+        return;
+        int num = int.Parse(Console.ReadLine());
+        ConverterNumero(num);
+        Console.WriteLine();
+        LerNumeros(n - 1);
     }
 }

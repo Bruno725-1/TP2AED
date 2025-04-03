@@ -12,3 +12,18 @@ C:\Users\1561719\Documents\TP2AED\matemagos\obj\Debug\net9.0\refint\matemagos.dl
 C:\Users\1561719\Documents\TP2AED\matemagos\obj\Debug\net9.0\matemagos.pdb
 C:\Users\1561719\Documents\TP2AED\matemagos\obj\Debug\net9.0\matemagos.genruntimeconfig.cache
 C:\Users\1561719\Documents\TP2AED\matemagos\obj\Debug\net9.0\ref\matemagos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.sourcelink.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\refint\matemagos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\bin\Debug\net9.0\matemagos.exe
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\bin\Debug\net9.0\matemagos.deps.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\bin\Debug\net9.0\matemagos.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\bin\Debug\net9.0\matemagos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\bin\Debug\net9.0\matemagos.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\matemagos.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\matemagos\obj\Debug\net9.0\ref\matemagos.dll
