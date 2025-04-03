@@ -8,10 +8,6 @@ class Program
         LerNumeros(n);
     }
     static void ConverterNumero (int num) {
-        if (num == 0) {
-            Console.Write(0);
-            return;
-        }
         if (num > 1) {
             ConverterNumero(num / 2);
         }

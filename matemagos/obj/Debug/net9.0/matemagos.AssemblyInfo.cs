@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("matemagos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5359f29936f2b35cde1523ae1083b5ba96c85e9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b27d5d9c36df24d7bea74f7e982846585bec52")]
 [assembly: System.Reflection.AssemblyProductAttribute("matemagos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("matemagos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
