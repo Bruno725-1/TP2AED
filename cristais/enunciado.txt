@@ -1,0 +1,44 @@
+A União dos Cristais
+
+No Reino de Algoritmia, havia dois povos que habitavam terras opostas. No leste, os Guardiões dos Múltiplos protegiam os Números Crescentes, uma coleção de cristais mágicos organizados em ordem perfeita. No oeste, os Sentinelas dos Primos guardavam os Números Únicos, outra coleção que jamais possuía elementos iguais aos dos Guardiões.
+
+Durante séculos, os dois povos viveram isolados, cada um acreditando que sua coleção era completa e perfeita. No entanto, um dia, o Oráculo Algorítmico revelou uma profecia: "A Verdadeira Ordem somente será alcançada quando os Cristais forem unidos em uma única sequência perfeita".
+
+Os líderes dos povos, então, decidiram unir os cristais, mas havia um problema: ninguém sabia como realizar essa fusão sem destruir a ordem de seus conjuntos. Foi então que um jovem aprendiz chamado Recursius sugeriu uma solução. Ele propôs um feitiço numérico que, através de magia recursiva, poderia combinar os dois conjuntos sem repetir nenhum cristal e mantendo a perfeita ordem crescente.
+
+Agora, cabe a você, grande programador, ajudar Recursius a escrever esse feitiço e concluir a profecia do Oráculo! Você recebeu uma tarefa para realizar com urgência, onde o seu programa receberá uma sequência de números de entrada e deverá retorná-los na saída, como mostrado na figura.
+
+O problema é que a linguagem final será o C#Marromenos (kkk). Essa linguagem, recém criada, é bem parecida com o C# só que, pra economizar no compilador, ela não tem nenhum comando de repetição (proibido usar while, for, do-while). A única forma de iterar em um conjunto repetitivo é por recursividade. 
+
+Entrada
+
+A primeira linha da entrada contém um inteiro N indicando quantidade de números inteiros do primeiro vetor que estará na linha a seguir (2 <= N <= 100). A terceira linha da entrada contém um inteiro M indicando quantidade de números inteiros do segundo vetor que estará na linha a seguir (2 <= M <= 100). Em todo os dois vetores os núeros estarão em ordem crescente e não haverá números em comum entre os dois conjuntos.
+
+
+Saída
+
+Deverá conter uma linha para os N+M números apresentados na entrada com os valores intercalados e em ordem crescente.
+
+
+ATENÇÃO
+
+O Verde permite a linguagem C# normal, mas o compilador final (o fessor compilando com os ôio) não ! Não pode usar nenhum comando repetição. Nem pra ler os dados muito menos pra escrever. Só método recursivo ! Para cada comando de repetição detectado, a nota deste TP 2 inteiro será dividida por 2 
+
+Entrada:
+5
+10 20 30 40 50
+6
+5 7 8 12 55 59
+
+Saída:
+5
+7
+8
+10
+12
+20
+30
+40
+50
+55
+59

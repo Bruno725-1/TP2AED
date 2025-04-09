@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\bin\Debug\net9.0\cristais.exe
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\bin\Debug\net9.0\cristais.deps.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\bin\Debug\net9.0\cristais.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\bin\Debug\net9.0\cristais.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\bin\Debug\net9.0\cristais.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.sourcelink.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\refint\cristais.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\cristais.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\cristais\obj\Debug\net9.0\ref\cristais.dll
