@@ -1,0 +1,43 @@
+O Enigma das Três Chaves  
+
+Em um reino muito, muito distante (e um pouco bagunçado), existia um grande feiticeiro chamado Parêntesis, o Caótico. Ele era conhecido por lançar feitiços extremamente poderosos, mas com um problema: ninguém nunca conseguia entender suas fórmulas mágicas!
+
+Dizem que Parêntesis tinha o costume de misturar os antigos símbolos da aritmética mágica (+, −, ×, ÷) com runas numéricas e letras místicas. Mas o mais estranho de tudo era o uso dos três Grandes Agrupadores: ( ), [ ] e { }.  
+
+O rei da Terra dos Cálculos, Sir Algébrico III, ficou tão confuso com os feitiços desordenados que resolveu lançar um desafio:  
+"Aquele que conseguir decifrar e validar as fórmulas do Feiticeiro Parêntesis receberá a lendária Coroa dos Números Bem-Agrupados!"  
+
+Muitos tentaram, mas todos falharam! Isso porque, se qualquer um dos agrupamentos estivesse desbalanceado, a fórmula se tornava um desastre absoluto, resultando em feitiços perigosíssimos, como a multiplicação por zero ou a invocação do temido Erro de Sintaxe!  
+
+Até que um jovem programador, chamado Chaveador, apareceu no castelo e disse:  
+"Ora, isso é fácil! Tudo que precisamos fazer é verificar se cada abre tem seu respectivo fecha, e na ordem correta!"  
+
+O rei ficou intrigado e desafiou o Chaveador a provar sua teoria. Agora, é sua missão criar um código que permitirá validar as expressões mágicas e garantir que apenas as bem-formadas sejam aceitas!    
+
+Entrada
+
+A primeira linha da entrada contém um inteiro N (1 <= N <= 100) indicando quantidade de fórmulas enfeitiçadas. A seguir, em cada uma das N linhas, cada fórmula terá uma quantidade variável de elementos, podendo ser eles: números, variáveis e as quatro operações básicas (+, -, ×, ÷), além dos três pares de caracteres de agrupamento: ( ), [ ] e { }. Suponha que o uso dos operadores está correto e concentre-se na verificação dos agrupadores.
+
+O programa deve verificar se a expressão está corretamente balanceada, ou seja, se cada abre tem seu fecha correspondente na ordem correta.
+
+
+Saída
+
+Deverá conter uma linha para cada uma das N fórmulas, escrevendo "Expressão válida" ou "Expressão inválida", conforme o caso.  
+
+Agora, grande programador, cabe a você criar o código que fará de Chaveador o novo Guardião das Expressões Bem-Formadas! 🚀
+
+Entrada:
+5
+{(a+b)×[c-d]}
+{(a+b]×[c-d)}
+[a/(b+c)-{d×e}
+[a/(b+c)]-{d×e}
+{[(x-y)+z/w]
+
+Saída:
+Expressão válida
+Expressão inválida
+Expressão inválida
+Expressão válida
+Expressão inválida

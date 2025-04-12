@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\bin\Debug\net9.0\bancos.exe
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\bin\Debug\net9.0\bancos.deps.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\bin\Debug\net9.0\bancos.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\bin\Debug\net9.0\bancos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\bin\Debug\net9.0\bancos.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.sourcelink.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\refint\bancos.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\bancos.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\bancos\obj\Debug\net9.0\ref\bancos.dll

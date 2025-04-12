@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\bin\Debug\net9.0\chaves.exe
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\bin\Debug\net9.0\chaves.deps.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\bin\Debug\net9.0\chaves.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\bin\Debug\net9.0\chaves.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\bin\Debug\net9.0\chaves.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.sourcelink.json
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\refint\chaves.dll
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.pdb
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\chaves.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\algoritmos e estruturas de dados\TP2AED\chaves\obj\Debug\net9.0\ref\chaves.dll

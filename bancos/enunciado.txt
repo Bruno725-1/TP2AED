@@ -1,0 +1,37 @@
+Malditas Filas de Bancos
+
+Na longínqua vila Oleb Etnoziroh, no montanhoso território de Salif Siareg, vivia um jovem chamado Otrebmuh. Os piores momentos de sua vida era quando precisava ir ao banco da vila, pois o sistema lá era muito arcaico e as pessoas precisavam formar filas para serem atendidas. E as filas tinha regras muito rígidas, que ninguém ousava desobedecer.
+
+Haviam sempre três filas básicas. A de idosos (a partir de 60 anos), de gravidas e os demais clientes. A regra de atendimento era a seguinte: no inicio do dia o caixa iniciava chamando um idoso, se houvesse algum na sua fila; a seguir chamava uma gravida, se houvesse na fila; finalmente uma pessoa da fila comum. Caso qualquer das filas. Logo após o próximo seria novamente da fila de idosos. Se a qualquer momento uma ou mais filas se ficassem vazias, passava-se para a próxima fila na sequencia.
+
+Muitos anos depois quando, Otrebmuh fez os seus 60 anos, coincidentemente e para a sua decepção, foi criada uma nova categoria de prioridade, a dos 80+. Nesta fila a regra é diferenciada. Enquanto houver algum 80+ na sua fila o próximo será sempre desta fila e a qualquer momento que chegar um 80+ ele vai a frente da próxima (que volta ao sistema normal, de onde parou, depois que a fila dos 80+ esvaziar).
+
+Alguns funcionários novatos do banco andaram cometendo erros ao chamar as pessoas nas filas o que causou muita revolta entre os clientes, mais ainda em Otrebmuh. Então o gerente chamou Otrebmuh, que sabe programar, para resolver esse problema. Só que Otrebmuh estava muito revoltado e se recusou a ajudar. Agora o gerente pede a sua ajuda, que ainda é jovem e ainda vai ter que ralar muito na vida mesmo (rsrs), para resolver esse problema.
+
+
+Entrada
+
+Será composta de uma quantidade indeterminada de linhas, cada linha com o seguinte formato: T Id G separados por espaço, onde T (0 <= T <= 60) indica o tempo, em minutos, que o cliente demorou para chegar na sua fila desde que o cliente anterior chegou; Id (18 <= Id <= 99) é a idade do cliente que chegou e foi devidamente identificada; e G é uma letra opcional indicando se a pessoa é uma grávida ou não. O atendente leva sempre 10 minutos para atender ao próximo da fila e a seguir ele chama o cliente seguinte para mais 10 minutos de atendimento. Quando o banco fecha o atendimento teremos T = -1 na entrada.
+
+
+Saída
+
+Na saída deverá ser mostrada a ordem dos clientes atendidos exibindo somente a sua idade.
+Ahhh, tem mais um detalhe !!!
+O gerente é muito exigente com performance. Então, ele exige que você utilize que o "tio" te ensinou na escolinha do primeiro horário, viu ? Caso contrário, Seu Gurança (eu mess) será chamado e irá lhe tirar preciosos pontos da sua conta, ok ?
+E bora lá que a fila tá crescendo e o povo tá irritado !!
+Entrada:
+0 40
+0 61
+0 23 G
+25 80
+26 23
+15 63
+-1
+Saída:
+61
+23
+80
+40
+23
+63
