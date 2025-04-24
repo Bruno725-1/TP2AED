@@ -1,64 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
+
 class Program
 {
-    public static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Olá, mundo!");
-        Queue <int> fila80Mais = new Queue<int>();
-        Queue<int> idosos = new Queue<int>();
-        Queue<int> gravidas = new Queue<int>();
-        Queue<int> filaComum = new Queue<int>();
-        int tempoAtual = 0;
-        string linha = "";
-        do
+        // Fila: cada item é uma tupla (tempo de chegada, idade)
+        Queue<(int tempoChegada, int idade)> fila80Mais = new Queue<(int, int)>();
+        Queue<(int tempoChegada, int idade)> filaIdosos = new Queue<(int, int)>();
+        Queue<(int tempoChegada, int idade)> filaGravidas = new Queue<(int, int)>();
+        Queue<(int tempoChegada, int idade)> filaComum = new Queue<(int, int)>();
+
+        int tempoAbsoluto = 0;
+        string linha;
+
+        while ((linha = Console.ReadLine()) != "-1")
         {
-            Console.WriteLine("Escreve um número");
-            linha = Console.ReadLine();
-            if (linha == "-1") break;
             string[] dados = linha.Split(' ');
-            int tempo = int.Parse(dados[0]);
+            int tempoRelativo = int.Parse(dados[0]);
             int idade = int.Parse(dados[1]);
-            //atualização do tempo de chegada para o atendimento
-            tempoAtual += tempo;
-            //adiciona os clientes à fila correta
+            bool gravida = dados.Length == 3 && dados[2] == "G";
+
+            tempoAbsoluto += tempoRelativo;
+
             if (idade >= 80)
-            fila80Mais.Enqueue(idade);
-            else if (idade >= 60 && idade <= 79)
-            idosos.Enqueue(idade);
-            else if(EhGravida(dados))
-            gravidas.Enqueue(idade);
+                fila80Mais.Enqueue((tempoAbsoluto, idade));
+            else if (idade >= 60)
+                filaIdosos.Enqueue((tempoAbsoluto, idade));
+            else if (gravida)
+                filaGravidas.Enqueue((tempoAbsoluto, idade));
             else
-            filaComum.Enqueue(idade);
-        } while (linha != "-1");
-        //atendimento dos clientes
-        while(fila80Mais.Count > 0 && idosos.Count > 0 && gravidas.Count > 0 && filaComum.Count > 0)
-        {
-            while (fila80Mais.Count > 0)
-            {
-                Console.WriteLine(fila80Mais.Dequeue());
-                tempoAtual += 10;
-            }
-            if (idosos.Count > 0)
-            {
-                Console.WriteLine(idosos.Dequeue());
-            }
-            else if (gravidas.Count > 0)
-            {
-                Console.WriteLine(gravidas.Dequeue());
-            }
-            else if (filaComum.Count > 0)
-            {
-                Console.WriteLine(filaComum.Dequeue());
-            }
-            tempoAtual += 10;
+                filaComum.Enqueue((tempoAbsoluto, idade));
         }
-    }
-    public static bool EhGravida (string[] dados) {
-        if (dados.Length != 3)
-        return false;
-        if (dados.Length == 3 && dados[2] == "G")
-        return true;
-        return false;
+
+        int tempoAtual = 0;
+        int tipoFila = 0; // 0: idosos, 1: grávidas, 2: comum
+
+        while (
+            fila80Mais.Count > 0 ||
+            filaIdosos.Count > 0 ||
+            filaGravidas.Count > 0 ||
+            filaComum.Count > 0
+        )
+        {
+            bool atendeu = false;
+
+            // Se tiver alguém 80+ já chegou, ele é atendido
+            if (fila80Mais.Count > 0 && fila80Mais.Peek().tempoChegada <= tempoAtual)
+            {
+                var pessoa = fila80Mais.Dequeue();
+                Console.WriteLine(pessoa.idade);
+                tempoAtual += 10;
+                atendeu = true;
+            }
+            else
+            {
+                // Tenta seguir o ciclo idosos → grávidas → comum
+                for (int i = 0; i < 3; i++)
+                {
+                    int atual = (tipoFila + i) % 3;
+
+                    if (atual == 0 && filaIdosos.Count > 0 && filaIdosos.Peek().tempoChegada <= tempoAtual)
+                    {
+                        var pessoa = filaIdosos.Dequeue();
+                        Console.WriteLine(pessoa.idade);
+                        tempoAtual += 10;
+                        tipoFila = (atual + 1) % 3;
+                        atendeu = true;
+                        break;
+                    }
+                    else if (atual == 1 && filaGravidas.Count > 0 && filaGravidas.Peek().tempoChegada <= tempoAtual)
+                    {
+                        var pessoa = filaGravidas.Dequeue();
+                        Console.WriteLine(pessoa.idade);
+                        tempoAtual += 10;
+                        tipoFila = (atual + 1) % 3;
+                        atendeu = true;
+                        break;
+                    }
+                    else if (atual == 2 && filaComum.Count > 0 && filaComum.Peek().tempoChegada <= tempoAtual)
+                    {
+                        var pessoa = filaComum.Dequeue();
+                        Console.WriteLine(pessoa.idade);
+                        tempoAtual += 10;
+                        tipoFila = (atual + 1) % 3;
+                        atendeu = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!atendeu)
+                tempoAtual++; // ninguém ainda chegou, avança no tempo
+        }
     }
 }
